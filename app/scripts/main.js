@@ -47,7 +47,7 @@ inputSearch.addEventListener("keyup", handleFormTyping);
 
     if (event2.key === "Enter" && inputSearch.value !== "") {
       console.log(inputSearch.value);
-      doFilter();
+      // doFilter();
     }
 
 
@@ -71,7 +71,7 @@ inputSearch.addEventListener("keyup", enableButtonFormSearch);
   if (inputSearch.value === "") {
     btnSearch.disabled = true;
   }
-btnSearch.addEventListener("click",handleFormTypingSubmit);
+btnSearch.addEventListener("click",clickFormButtonSubmit);
 }
 
 
